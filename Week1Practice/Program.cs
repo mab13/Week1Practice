@@ -19,6 +19,7 @@ namespace Week1Practice
             // 3. Declare a boolean value called "myBool" and set it equal to true or false;
             bool myBool = true;
             // 4. Declare a new list of strings called "productsList" and set it equal to "basketball", "baseball glove", "tennis shoes", "hockey puck" 
+            productsList{"basketball", "baseball glove", "tennis shoes", "hockey puck"}; 
 
             // PRINTING VARIABLES TO THE CONSOLE USING CONSOLE.WRITELINE()
             // 1. Print your name to the console using the format: "My name is <myName> and I'm a beast of a programmer"
@@ -28,7 +29,10 @@ namespace Week1Practice
             // 3. Print out your boolean value using the format: "I set my boolean value equal to <myBool>"
             Console.WriteLine("I set my boolean value equal to " + myBool );
             // 4. Using a For loop, print out each value in productsList.
-
+            for (int i = 0; i < List.Count; i++)
+			{
+			 ProductList. 
+			}
             // FOR LOOP PRACTICE
             // 1. Create a for loop that prints out the numbers 1 to 10.
             for (int i = 1; i <= 10; i = i + 1)
@@ -64,7 +68,7 @@ namespace Week1Practice
             // 4. Create a while loop that prints out the numbers from 100 to 75, only printing every 5th number (100, 95, 90, 85, 80, 75)
             int i = 75;
             while( int i <= 100; i = i + 5) {
-                Console.WriteLine(i);
+                Console.WriteLine(i);  
             }
             // 5. Create a while loop that prints out the numbers from 1 to 10 until it reaches one that is divisible by 4.
             int i = 0;
@@ -106,9 +110,9 @@ namespace Week1Practice
             //          a. "I'm looping from <startNum> to <endNum>."  
             //          b. The numbers from startNum to endNum, one per line.
             // 11. Call your LoopThis function by passing in 20 and 30 as your parameters.
-            LoopThis(20,30);
+            LoopThis(20,30); 
             // 12. Call your LoopThis function by passing in 0 and myAge as your parameters.
-            LoopThis(0, myAge); 
+            LoopThis(0, myAge);     
             // 13. Create a function called "SuperLoop" that takes three integer parameters called "startNum", "endNum", and "increment".  
             //      You will need to track how many times the loop has been executed in a variable called "loopCount".
             //      This function will print out: 
